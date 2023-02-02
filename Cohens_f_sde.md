@@ -3,7 +3,7 @@
 
 For mean structures of interaction designs the respective (residual) sd was calculated using Cohens f = 0.4 for a balanced designs.   
 
-Following Cohen, 1977, p.371:
+Following Cohen, 1977:
 For our 2x2 between subjects design with Factors A and a = 2 levels and B with b = 2 levels
 
 Cohens_f = sigma_x/sigma_e and respectively sigma_e = sigma_x/f  
