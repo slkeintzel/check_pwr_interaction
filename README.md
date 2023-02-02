@@ -11,11 +11,12 @@ simulation conditions:
 - different sample sizes (for plotting power curve: 20:260) 
 
 # Files
-`simulation.R`: main R Script with custom simulation and plots:
-`functions.R`: custom functions used
-`matrices.R`: Script defining different balancing matrices
-`tools.R`: results from tested tools
-`figures_for_poster.R`: code for figures on poster
+`simulation.R`: main R Script with custom simulation and plots:  
+`functions.R`: custom functions used  
+`matrices.R`: Script defining different balancing matrices  
+`tools.R`: results from tested tools  
+`figures_for_poster.R`: code for figures on poster  
+`Cohens_f_sde.md`: Explanation of how Cohens f can be calculated from mean structure and residual standard deviation (and vice versa) for our simulation  
 
 # Data
 `... power_Superpower... .Rdata`: Power curve results for Superpower (generated in tools.R)

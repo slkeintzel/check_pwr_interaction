@@ -25,9 +25,7 @@ make_parameters_for_f <- function(mu, # means vector (cells 00,01,10,11)
   b2 = mu_matr["C_b = 1", "C_b_means"] - b0 # difference C_b = 1 from unweighed mean
   b3 = mu_matr["C_b = 1", "C_a = 1"] - b0 - b1 - b2 # for interaction term
   
-  # Formula for retrieving sd_res for given f (see also 
-  # https://webpower.psychstat.org/wiki/manual/power_of_nanova, the numerator 
-  # of the formula given there is equal to our calculation of effect coded b3 
+  # Formula for retrieving sd_res for given f (see Cohens_d_sde.md for more info)
   sde = b3/f
   
   return(list(mu = mu,
